@@ -15,3 +15,7 @@ def test_is_palindrome_true():
 
 def test_is_palindrome_false():
     assert is_palindrome("hello") is False
+
+
+def test_is_palindrome_empty_string():
+    assert is_palindrome("") is True
